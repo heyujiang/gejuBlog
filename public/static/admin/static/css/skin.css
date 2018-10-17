@@ -1,0 +1,37 @@
+/* nav skin */
+.skin-1{
+    overflow: auto;
+}
+
+.skin-1,
+.skin-1 .main-nav,
+.skin-1 .main-nav > li > ul,
+.skin-1 .main-nav > li > ul > li > ul {
+    background: #393D49;
+}
+
+.skin-2,
+.skin-2 .main-nav,
+.skin-2 .main-nav > li > ul,
+.skin-2 .main-nav > li > ul > li > ul {
+    background: #1E9FFF;
+}
+
+.skin-3,
+.skin-3 .main-nav,
+.skin-3 .main-nav > li > ul,
+.skin-3 .main-nav > li > ul > li > ul {
+    background: #F7B824;
+}
+
+.skin-1 .main-nav > li:hover > a,
+.skin-1 .main-nav > li > ul > li:hover > a,
+.skin-1 .main-nav > li > ul > li > ul > li:hover > a,
+.skin-2 .main-nav > li:hover > a,
+.skin-2 .main-nav > li > ul > li:hover > a,
+.skin-2 .main-nav > li > ul > li > ul > li:hover > a,
+.skin-3 .main-nav > li:hover > a,
+.skin-3 .main-nav > li > ul > li:hover > a,
+.skin-3 .main-nav > li > ul > li > ul > li:hover > a {
+    border: 2px solid white;
+}
